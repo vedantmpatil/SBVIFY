@@ -1,0 +1,301 @@
+.container {
+    /* border: 2px solid rgb(0, 0, 0); */
+    margin: 6px auto;
+}
+
+body {
+    /* background: black; */
+    /* color: white; */
+}
+
+.hero {
+    border: 6px solid black;
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #021B79, #0575E6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 12px;
+
+}
+
+#heroimg {
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 594px;
+    height: 285px;
+    padding: 6px;
+    border-radius: 16px;
+}
+
+#heropara {
+    /* border: 3px solid rgb(33, 153, 9); */
+    /* color: white; */
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    font-family: 'Bungee Spice', cursive;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.mytable {
+    border: 6px solid rgb(0, 0, 0);
+    margin: 6px auto;
+    /* padding: 3px; */
+    border-radius: 12px;
+    /* font-family:  cursive; */
+    font-size: x-large;
+    font-family: 'DM Serif Display', serif;
+    background: #000000;
+    color: white;
+}
+
+body {
+    background-color: #fee440;
+}
+
+svg {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.links {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a img.icon {
+    display: inline-block;
+    height: 1em;
+    margin: 0 0 -0.1em 0.3em;
+}
+
+.listimg {
+    border: 2px solid pink;
+    max-width: 62px;
+    max-height: 36px;
+}
+
+/* ****************************** CARD CSS *************************** */
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.card {
+    /* width: 50%;
+    height: 50%;
+    margin: 10px 10px 10px 10px; */
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* border: 2px solid red; */
+    /* margin: 0px 0px 0px 0px; */
+    background-color: transparent;
+}
+
+.cardContent {
+    width: 26%;
+    padding: 8px;
+    min-height: 66vh;
+    margin: 0px 0px 0px 0px;
+    /*margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;  */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    border: 6px solid rgb(0, 0, 0);
+}
+
+.row1 {
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    margin: 0px 0px 6px 0px;
+    padding: 3px;
+    font-size: larger;
+}
+
+.row2 {
+    /* border: 3px solid rgb(0, 255, 98); */
+    margin: 17px 0px 3pxpx 0px;
+    text-align: center;
+}
+
+.row3 {
+    /* border: 3px solid rgb(0, 238, 255);s */
+    margin: 10px 0px 0px 0px;
+}
+
+.row4 {
+    /* border: 3px solid rgb(234, 255, 0);s */
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    /* color: rgb(81, 2, 99); */
+}
+
+.cardContent img {
+    border-radius: 16px;
+    width: 326px;
+    height: 33vh;
+}
+
+.row2 div {
+    margin: 12px 0px 0px 0px;
+}
+
+.songTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressBar {
+    display: flex;
+    justify-content: center;
+}
+
+#progress {
+    width: 21vw;
+    cursor: pointer;
+}
+#nowplaying{
+    font-family: 'Kanit', sans-serif;
+    font-size: larger;
+    /* color: white; */
+}
+.row4 span i {
+    cursor: pointer;
+    scale: 1.5;
+}
+#myyoutube:hover{
+    color: red;
+}
+.songTime{
+    font-size: larger;
+    font-family: 'Kanit', sans-serif;
+}
+#myplay {
+    scale: 3.2;
+}
+
+#myskipnext {
+    scale: 2.4;
+}
+
+#myskipprevious {
+    scale: 2.4;
+}
+#songtitle{
+    font-family: 'Kanit', sans-serif;
+}
+#myshuffle {
+    scale: 1.6;
+}
+#coverimg{
+    background: url(img/tiger.png) no-repeat;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #370162;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+#myqueue {
+    scale: 1.6;
+}
+
+#myarrow {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#myyoutube {
+    scale: 1.3;
+}
+
+#heart:hover {
+    scale: 1.3;
+}
+
+@media only screen and (max-width : 1300px) {
+    .cardContent {
+        width: 46%;
+        padding: 8px;
+        min-height: 66vh;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width : 700px) {
+    .cardContent {
+        width: 68%;
+        padding: 8px;
+        min-height: 66vh;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .cardContent {
+        width: 80%;
+        padding: 8px;
+        min-height: 66vh;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.card {
+    display: none;
+}
+
+.myrow:hover {
+    background-color: #333;
+    /* Darker background color when hovering */
+}
+
+.myrow:hover td {
+    color: #22ff00 !important;
+    /* Text color when hovering, !important overrides other styles */
+    transition: color 0.3s ease; 
+}
+
+.myrow:hover .songItemplay {
+    color: #22ff00 !important;
+    /* Change the color to red when hovering, adjust as needed */
+    transition: color 0.3s ease; 
+}
+
+.mytable thead tr:first-child th {
+    color: #22ff00 !important;
+}
